@@ -3,7 +3,7 @@
 
 name: Build and deploy JAR app to Azure Web App - javashopsgithub
 
-env: # Or as an environment variable
+env: # Use an environment variable for the conection string
       APP_CONFIGURATION_CONNECTION_STRING: ${{ secrets.APP_CONFIGURATION_CONNECTION_STRING }}
 
 on:
