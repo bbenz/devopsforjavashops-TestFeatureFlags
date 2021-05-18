@@ -3,6 +3,9 @@
 
 name: Build and deploy JAR app to Azure Web App - reactorgithub20210517
 
+env: 
+      APP_CONFIGURATION_CONNECTION_STRING: ${{ secrets.APP_CONFIGURATION_CONNECTION_STRING }}
+
 on:
   push:
     branches:
